@@ -2,10 +2,10 @@ import {StyleSheet} from 'react-native';
 
 const Styles = StyleSheet.create({
   container: {
-    paddingHorizontal: 10,
+    paddingHorizontal: 12,
     paddingTop: 20,
   },
-  LabelView: {
+  labelContainer: {
     width: '100%',
     height: 50,
     backgroundColor: '#E0E0E0',
