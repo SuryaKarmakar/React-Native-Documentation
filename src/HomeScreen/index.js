@@ -16,7 +16,7 @@ const HomeScreen = () => {
           activeOpacity={0.6}
           onPress={() => navigation.navigate(item.name)}
           style={Styles.labelContainer}>
-          <Text style={Styles.textStyle}>{item?.name}</Text>
+          <Text style={Styles.textStyle}>{item.name}</Text>
         </TouchableOpacity>
       ))}
     </ScrollView>
