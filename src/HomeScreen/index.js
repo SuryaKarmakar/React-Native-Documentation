@@ -10,7 +10,7 @@ const HomeScreen = () => {
 
   return (
     <ScrollView style={Styles.container}>
-      {Routes?.slice(1)?.map((item, index) => (
+      {Routes.slice(1).map((item, index) => (
         <TouchableOpacity
           key={index}
           activeOpacity={0.6}
