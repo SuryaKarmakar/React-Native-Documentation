@@ -16,3 +16,8 @@ React Native lets you build custom iOS or Android components based on your appli
 own them. These are written in native code, which means working with native iOS code in Swift and Objective-C,or native Android code in Java or 
 Kotlin.
 
+- ScrollView - ScrollView component always needs a bounded height, which can be directly set by providing a height to the view.
+
+- Cross-Platform Developer -> React native developer
+
+- 
