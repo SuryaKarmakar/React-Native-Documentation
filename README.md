@@ -20,4 +20,7 @@ Kotlin.
 
 - Cross-Platform Developer -> React native developer
 
-- 
+- Flatlist:
+
+This component renders the items lazily. What does lazy rendering mean? Well, instead of rendering the entire list at once, it only renders the items of the list
+as soon as they need to appear on screen. In addition to lazy rendering, the flat list component can take on the features of the Scroll View component. To better understand the benefit of lazy rendering, let's first revisit the Scroll View component. An app using this component would render all items in the list at once, regardless of whether or not they are on the screen at that moment. In contrast, with lazy rendering, items are only rendered when they are about to appear on the screen and are removed when the user scrolls away from them. This results in faster rendering and superior performance. 
