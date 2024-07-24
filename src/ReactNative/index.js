@@ -1,8 +1,8 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
 import {ScrollView, TouchableOpacity, Text} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
-import Styles from './styles';
 import Routes from '../routes';
 
 const ReactNative = () => {
@@ -24,3 +24,22 @@ const ReactNative = () => {
 };
 
 export default ReactNative;
+
+const Styles = StyleSheet.create({
+  container: {
+    paddingHorizontal: 12,
+    paddingTop: 20,
+  },
+  labelContainer: {
+    width: '100%',
+    height: 50,
+    backgroundColor: '#E0E0E0',
+    borderRadius: 6,
+    justifyContent: 'center',
+    paddingHorizontal: 10,
+    marginBottom: 10,
+  },
+  textStyle: {
+    fontSize: 18,
+  },
+});
