@@ -3,14 +3,14 @@ import {StyleSheet} from 'react-native';
 import {ScrollView, TouchableOpacity, Text} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
-import Routes from '../routes';
+import {RouteReactNative} from '../routes';
 
 const ReactNative = () => {
   const navigation = useNavigation();
 
   return (
     <ScrollView style={Styles.container}>
-      {Routes?.slice(1)?.map((item, index) => (
+      {RouteReactNative?.map((item, index) => (
         <TouchableOpacity
           key={index}
           activeOpacity={0.6}
