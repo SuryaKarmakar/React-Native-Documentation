@@ -3,14 +3,14 @@ import {ScrollView, TouchableOpacity, Text} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
 import Styles from './styles';
-import Routes from '../resource/routes';
+import {RouteCoreComponents} from '../routes';
 
-const HomeScreen = () => {
+const CoreComponents = () => {
   const navigation = useNavigation();
 
   return (
     <ScrollView style={Styles.container}>
-      {Routes?.slice(1)?.map((item, index) => (
+      {RouteCoreComponents?.map((item, index) => (
         <TouchableOpacity
           key={index}
           activeOpacity={0.6}
@@ -23,4 +23,4 @@ const HomeScreen = () => {
   );
 };
 
-export default HomeScreen;
+export default CoreComponents;
