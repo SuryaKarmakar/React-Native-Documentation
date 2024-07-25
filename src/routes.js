@@ -3,25 +3,25 @@ import CoreComponents from './CoreComponents';
 import ReactNativeApis from './ReactNativeApis';
 
 import ActivityIndicator from './CoreComponents/ActivityIndicator';
-import Button from './CoreComponents/ActivityIndicator';
-import FlatList from './CoreComponents/ActivityIndicator';
-import Image from './CoreComponents/ActivityIndicator';
-import ImageBackground from './CoreComponents/ActivityIndicator';
-import KeyboardAvoidingView from './CoreComponents/ActivityIndicator';
-import Modal from './CoreComponents/ActivityIndicator';
-import Pressable from './CoreComponents/ActivityIndicator';
-import RefreshControlBase from './CoreComponents/ActivityIndicator';
-import ScrollView from './CoreComponents/ActivityIndicator';
-import SectionList from './CoreComponents/ActivityIndicator';
-import StatusBar from './CoreComponents/ActivityIndicator';
-import Switch from './CoreComponents/ActivityIndicator';
-import Text from './CoreComponents/ActivityIndicator';
-import TextInput from './CoreComponents/ActivityIndicator';
-import TouchableHighlight from './CoreComponents/ActivityIndicator';
-import TouchableOpacity from './CoreComponents/ActivityIndicator';
-import TouchableWithoutFeedback from './CoreComponents/ActivityIndicator';
-import View from './CoreComponents/ActivityIndicator';
-import VirtualizedList from './CoreComponents/ActivityIndicator';
+import Button from './CoreComponents/Button';
+import FlatList from './CoreComponents/FlatList';
+import Image from './CoreComponents/Image';
+import ImageBackground from './CoreComponents/ImageBackground';
+import KeyboardAvoidingView from './CoreComponents/KeyboardAvoidingView';
+import Modal from './CoreComponents/Modal';
+import Pressable from './CoreComponents/Pressable';
+import RefreshControl from './CoreComponents/RefreshControl';
+import ScrollView from './CoreComponents/ScrollView';
+import SectionList from './CoreComponents/SectionList';
+import StatusBar from './CoreComponents/StatusBar';
+import Switch from './CoreComponents/Switch';
+import Text from './CoreComponents/Text';
+import TextInput from './CoreComponents/TextInput';
+import TouchableHighlight from './CoreComponents/TouchableHighlight';
+import TouchableOpacity from './CoreComponents/TouchableOpacity';
+import TouchableWithoutFeedback from './CoreComponents/TouchableWithoutFeedback';
+import View from './CoreComponents/View';
+import VirtualizedList from './CoreComponents/VirtualizedList';
 
 export const RouteReactNative = [
   {
@@ -68,8 +68,8 @@ export const RouteCoreComponents = [
     component: Pressable,
   },
   {
-    name: 'RefreshControlBase',
-    component: RefreshControlBase,
+    name: 'RefreshControl',
+    component: RefreshControl,
   },
   {
     name: 'ScrollView',
