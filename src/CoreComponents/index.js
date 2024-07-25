@@ -1,6 +1,6 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
-import {ScrollView, TouchableOpacity, Text} from 'react-native';
+import {ScrollView, TouchableOpacity, Text, View} from 'react-native';
 import {useNavigation} from '@react-navigation/native';
 
 import {RouteCoreComponents} from '../routes';
@@ -19,6 +19,7 @@ const CoreComponents = () => {
           <Text style={Styles.textStyle}>{item.name}</Text>
         </TouchableOpacity>
       ))}
+      <View style={Styles.extraPadding} />
     </ScrollView>
   );
 };
@@ -41,5 +42,8 @@ const Styles = StyleSheet.create({
   },
   textStyle: {
     fontSize: 18,
+  },
+  extraPadding: {
+    paddingBottom: 100,
   },
 });
